@@ -14,7 +14,7 @@ export default class Companies extends Component {
         }
     }
     getCompanies() {
-        var sorted = sortBy(this.props.companies, 'name')
+        var sorted = sortBy(this.props.companies, this.state.sort)
         if(this.state.inverse) {
             sorted.reverse()
         }
@@ -32,7 +32,7 @@ export default class Companies extends Component {
                 <thead>
                 <tr>
                     <th onClick={this.sortBy.bind(this, 'name')}>Navn</th>
-                    <th>Trustpilot</th>
+                    <th onClick={this.sortBy.bind(this, 'trustpilot')}>Trustpilot</th>
                     <th>Link</th>
                 </tr>
                 </thead>
