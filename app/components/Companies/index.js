@@ -1,25 +1,55 @@
 import React, { Component } from 'react'
 import Table from '../Table'
+import { sortBy } from 'lodash'
+import Button from '../Button'
+import styles from './style.scss'
 
 export default class Companies extends Component {
+    constructor() {
+        super()
+
+        this.state = {
+            sort: 'name',
+            inverse: false
+        }
+    }
+    getCompanies() {
+        var sorted = sortBy(this.props.companies, 'name')
+        if(this.state.inverse) {
+            sorted.reverse()
+        }
+        return sorted
+    }
+    sortBy(item) {
+        this.setState({
+            sort: item,
+            inverse: !this.state.inverse
+        })
+    }
     render() {
         return (
-            <div>
-                <Table striped bordered condensed hover>
-                    <thead>
-                        <tr>
-                            <th>Navn</th>
-                            <th>Pris</th>
+            <table className={styles.Table}>
+                <thead>
+                <tr>
+                    <th onClick={this.sortBy.bind(this, 'name')}>Navn</th>
+                    <th>Trustpilot</th>
+                    <th>Link</th>
+                </tr>
+                </thead>
+                <tbody>
+                {this.getCompanies().map((company, key) => {
+                    return (
+                        <tr key={key}>
+                            <td>{company.name}</td>
+                            <td>{company.trustpilot}</td>
+                            <td>
+                                <Button href={company.url}>Besøg</Button>
+                            </td>
                         </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Krifa</td>
-                            <td>650,-</td>
-                        </tr>
-                    </tbody>
-                </Table>
-            </div>
+                    )
+                })}
+                </tbody>
+            </table>
         )
     }
 }
