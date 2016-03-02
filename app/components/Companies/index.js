@@ -43,7 +43,7 @@ export default class Companies extends Component {
                             <td>{company.name}</td>
                             <td>{company.trustpilot}</td>
                             <td>
-                                <Button href={company.url}>Besøg</Button>
+                                <Button target='_blank' href={company.url}>Besøg</Button>
                             </td>
                         </tr>
                     )
