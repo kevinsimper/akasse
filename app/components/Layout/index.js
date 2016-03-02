@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import styles from './style.scss'
 
 export default class Layout extends Component {
   getAnalytics() {
@@ -19,12 +18,12 @@ export default class Layout extends Component {
     return (
       <html>
         <head>
-          <title>Cycles.dk</title>
+          <title>Akassejunglen.dk</title>
           <link rel='stylesheet' href={this.props.assets.main.css}/>
           <script dangerouslySetInnerHTML={this.getAnalytics()}></script>
         </head>
         <body>
-          <div className={styles.wrapper} id='wrapper'>
+          <div id='wrapper'>
             {this.props.children}
           </div>
           <script src={this.props.assets.main.js}></script>

@@ -3,6 +3,7 @@ import Table from '../Table'
 import { sortBy } from 'lodash'
 import Button from '../Button'
 import styles from './style.scss'
+import CompaniesData from '../../companies.json'
 
 export default class Companies extends Component {
     constructor() {
@@ -14,7 +15,7 @@ export default class Companies extends Component {
         }
     }
     getCompanies() {
-        var sorted = sortBy(this.props.companies, this.state.sort)
+        var sorted = sortBy(CompaniesData.companies, this.state.sort)
         if(this.state.inverse) {
             sorted.reverse()
         }
