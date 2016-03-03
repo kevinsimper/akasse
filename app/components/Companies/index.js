@@ -40,6 +40,9 @@ export default class Companies extends Component {
                 {this.getCompanies().map((company, key) => {
                     return (
                         <tr key={key}>
+                            <td>
+                                <div className={styles.Logo}><img src={company.img}/></div>
+                            </td>
                             <td>{company.name}</td>
                             <td>{company.trustpilot}</td>
                             <td>
