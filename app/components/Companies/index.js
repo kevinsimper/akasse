@@ -31,6 +31,7 @@ export default class Companies extends Component {
             <table className={styles.Table}>
                 <thead>
                 <tr>
+                    <th>Logo</th>
                     <th onClick={this.sortBy.bind(this, 'name')}>Navn ⬇⬆</th>
                     <th onClick={this.sortBy.bind(this, 'trustpilot')}>Trustpilot ⬇⬆</th>
                     <th>Link</th>
