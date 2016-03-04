@@ -32,6 +32,7 @@ export default class Companies extends Component {
             <table className={styles.Table}>
                 <thead>
                 <tr>
+                    <th>Logo</th>
                     <th onClick={this.sortBy.bind(this, 'name')}>Navn ⬇⬆</th>
                     <th onClick={this.sortBy.bind(this, 'trustpilot')}>Trustpilot ⬇⬆</th>
                     <th>Link</th>
@@ -41,6 +42,9 @@ export default class Companies extends Component {
                 {this.getCompanies().map((company, key) => {
                     return (
                         <tr key={key}>
+                            <td>
+                                <div className={styles.Logo}><img src={company.img}/></div>
+                            </td>
                             <td>{company.name}</td>
                             <td>{company.trustpilot}</td>
                             <td>
