@@ -32,8 +32,10 @@ export default class Companies extends Component {
             <table className={styles.Table}>
                 <thead>
                 <tr>
-                    <th>Logo</th>
+                    <th></th>
                     <th onClick={this.sortBy.bind(this, 'name')}>Navn ⬇⬆</th>
+                    <th onClick={this.sortBy.bind(this, 'price.student')}>Studerende ⬇⬆</th>
+                    <th onClick={this.sortBy.bind(this, 'price.base')}>Pris ⬇⬆</th>
                     <th onClick={this.sortBy.bind(this, 'trustpilot')}>Trustpilot ⬇⬆</th>
                     <th>Link</th>
                 </tr>
@@ -46,6 +48,8 @@ export default class Companies extends Component {
                                 <div className={styles.Logo}><img src={company.img}/></div>
                             </td>
                             <td>{company.name}</td>
+                            <td>{company.price.student}</td>
+                            <td>{company.price.base}</td>
                             <td>{company.trustpilot}</td>
                             <td>
                                 <Button target='_blank' href={company.url}>Besøg</Button>
