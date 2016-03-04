@@ -4,67 +4,109 @@
       "name": "Min A-kasse",
       "url": "https://www.min-a-kasse.dk/",
       "trustpilot": 3.3,
-      "img": "https://www.min-a-kasse.dk/templates/redcomponent/images/logo.png"
+      "img": "https://www.min-a-kasse.dk/templates/redcomponent/images/logo.png",
+      "price": {
+        "base": 450,
+        "student": 0
+      }
     },
     {
       "name": "FTF A",
       "url": "http://www.ftf-a.dk/",
       "trustpilot": 6,
-      "img": "http://www.ftf-a.dk/fileadmin/user_upload/images/logoer/FTFA_logo.png"
+      "img": "http://www.ftf-a.dk/fileadmin/user_upload/images/logoer/FTFA_logo.png",
+      "price": {
+        "base": 435,
+        "student": 0
+      }
     },
     {
       "name": "Det Faglige Hus",
       "url": "https://www.detfagligehus.dk/",
       "trustpilot": 8.9,
-      "img": "http://www.findbilligfagforening.dk/wp-content/uploads/2014/10/det-faglige-hus-logo.png"
+      "img": "http://www.findbilligfagforening.dk/wp-content/uploads/2014/10/det-faglige-hus-logo.png",
+      "price": {
+        "base": 466,
+        "student": 0
+      }
     },
     {
       "name": "Krifa",
       "url": "https://www.krifa.dk/",
       "trustpilot": 6.9,
-      "img": "http://www.naestvedcity.dk/images/citymedlemmer/Logoer/F-K/Krifa_logo.png"
+      "img": "http://www.naestvedcity.dk/images/citymedlemmer/Logoer/F-K/Krifa_logo.png",
+      "price": {
+        "base": 469,
+        "student": 0
+      }
     },
     {
       "name": "Frie Funktionærer",
       "url": "https://www.f-f.dk/",
       "trustpilot": 9.1,
-      "img": "http://www.boligportal.dk/pristjek/app/uploads/2015/11/frie-funktionaerer-logo.png"
+      "img": "http://www.boligportal.dk/pristjek/app/uploads/2015/11/frie-funktionaerer-logo.png",
+      "price": {
+        "base": 461,
+        "student": 0
+      }
     },
     {
       "name": "ASE",
       "url": "http://www.ase.dk/",
       "trustpilot": 7.4,
-      "img": "http://www.ase.dk/media/191097/ase_logo.png"
+      "img": "http://www.ase.dk/media/191097/ase_logo.png",
+      "price": {
+        "base": 467,
+        "student": 0
+      }
     },
     {
       "name": "Lederne",
       "url": "https://www.lederne.dk/",
       "trustpilot": 6.2,
-      "img": "http://media.compargo.com/dk/products/unemployment-fund/ledernes-a-kasse.png"
+      "img": "http://media.compargo.com/dk/products/unemployment-fund/ledernes-a-kasse.png",
+      "price": {
+        "base": 514
+      }
     },
     {
       "name": "CA A-kasse",
       "url": "https://www.ca.dk/",
       "trustpilot": 9.6,
-      "img": "http://www.onlinekurser.dk/wp-content/themes/onlinekurser/images/a-kasser/ca-on.gif"
+      "img": "http://www.onlinekurser.dk/wp-content/themes/onlinekurser/images/a-kasser/ca-on.gif",
+      "price": {
+        "base": 474,
+        "student": 0
+      }
     },
     {
       "name": "FOA",
       "url": "http://www.foa.dk/A-kasse",
       "trustpilot": 3.2,
-      "img": "http://modkraft.dk/sites/default/files/org_FOA_Logo.jpg"
+      "img": "http://modkraft.dk/sites/default/files/org_FOA_Logo.jpg",
+      "price": {
+        "base": 471,
+        "student": 15
+      }
     },
     {
       "name": "HK Danmark",
       "url": "http://www.hk.dk/",
       "trustpilot": 2.6,
-      "img": "http://bimi.dk/wp-content/uploads/2015/04/HK-sammen-er-du-st%C3%A6rkere.jpg"
+      "img": "http://bimi.dk/wp-content/uploads/2015/04/HK-sammen-er-du-st%C3%A6rkere.jpg",
+      "price": {
+        "base": 472,
+        "student": 0
+      }
     },
     {
       "name": "Dana",
       "url": "https://www.dana.dk/",
       "trustpilot": 6.4,
-      "img": "http://dana-kurser.dk/foredrag/fradrag-vaerloese/images/Dana-logo-sort-baggrund.png"
+      "img": "http://dana-kurser.dk/foredrag/fradrag-vaerloese/images/Dana-logo-sort-baggrund.png",
+      "price": {
+        "base": 578
+      }
     }
   ]
 }
