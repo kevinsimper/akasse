@@ -42,7 +42,7 @@ export default class Companies extends Component {
                 </thead>
                 <tbody>
                 {this.getCompanies().map((company, key) => {
-                    var image = require('./Logos/' + company.img)
+                    var image = require('!!file?name=[name].[ext]!./Logos/' + company.img)
                     return (
                         <tr key={key}>
                             <td>

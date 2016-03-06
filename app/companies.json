@@ -4,7 +4,7 @@
       "name": "Min A-kasse",
       "url": "https://www.min-a-kasse.dk/",
       "trustpilot": 3.3,
-      "img": "logo1.png",
+      "img": "min-a-kasse.png",
       "price": {
         "base": 450,
         "student": 0
@@ -14,7 +14,7 @@
       "name": "FTF A",
       "url": "http://www.ftf-a.dk/",
       "trustpilot": 6,
-      "img": "FTFA_cmyk.jpg",
+      "img": "ftfa.jpg",
       "price": {
         "base": 435,
         "student": 0
@@ -34,7 +34,7 @@
       "name": "Krifa",
       "url": "https://www.krifa.dk/",
       "trustpilot": 6.9,
-      "img": "Krifa_logo.png",
+      "img": "krifa_logo.png",
       "price": {
         "base": 469,
         "student": 0
@@ -83,7 +83,7 @@
       "name": "FOA",
       "url": "http://www.foa.dk/A-kasse",
       "trustpilot": 3.2,
-      "img": "org_FOA_Logo.jpg",
+      "img": "foa-logo.jpg",
       "price": {
         "base": 471,
         "student": 15
@@ -93,7 +93,7 @@
       "name": "HK Danmark",
       "url": "http://www.hk.dk/",
       "trustpilot": 2.6,
-      "img": "hk_logo_200x200.png",
+      "img": "hk_logo.png",
       "price": {
         "base": 472,
         "student": 0
@@ -103,7 +103,7 @@
       "name": "Dana",
       "url": "https://www.dana.dk/",
       "trustpilot": 6.4,
-      "img": "Dana_Logo.png",
+      "img": "dana-logo.png",
       "price": {
         "base": 578
       }
