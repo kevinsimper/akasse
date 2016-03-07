@@ -6,7 +6,7 @@ import CBS from './components/CBS'
 
 export default (
   <Route path='/' component={Main}>
-    <IndexRoute component={Companies}/>
+    <IndexRoute component={Welcome}/>
     <Route path='cbs' component={CBS}/>
   </Route>
 )
