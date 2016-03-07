@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styles from './style.scss'
-import image from './logo.png'
+import image from '!!file?name=[name].[ext]!./logo.png'
 
 export default class Logo extends Component {
   render() {
