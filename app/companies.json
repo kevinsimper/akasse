@@ -3,6 +3,7 @@
     {
       "name": "Min A-kasse",
       "url": "https://www.min-a-kasse.dk/",
+      "studentLink": "https://www.min-a-kasse.dk/fritagelse-for-betaling-afkontingent",
       "trustpilot": 3.3,
       "img": "min-a-kasse.png",
       "price": {
@@ -13,6 +14,7 @@
     {
       "name": "FTF A",
       "url": "http://www.ftf-a.dk/",
+      "studentLink": "http://www.ftf-a.dk/bliv-medlem/studerende/",
       "trustpilot": 6,
       "img": "ftfa.jpg",
       "price": {
@@ -23,6 +25,7 @@
     {
       "name": "Det Faglige Hus",
       "url": "https://www.detfagligehus.dk/",
+      "studentLink": "https://www.detfagligehus.dk/faa-hjaelp/under-uddannelse/medlemskab/",
       "trustpilot": 8.9,
       "img": "det-faglige-hus-logo.png",
       "price": {
@@ -33,6 +36,7 @@
     {
       "name": "Krifa",
       "url": "https://www.krifa.dk/",
+      "studentLink": "https://www.krifa.dk/fs/situationer-forsiden/studerende.aspx?find-svar-situation=studerende",
       "trustpilot": 6.9,
       "img": "krifa_logo.png",
       "price": {
@@ -43,6 +47,7 @@
     {
       "name": "Frie Funktionærer",
       "url": "https://www.f-f.dk/",
+      "studentLink": "https://www.f-f.dk/under-uddannelse",
       "trustpilot": 9.1,
       "img": "frie-funktionaerer-logo.png",
       "price": {
@@ -53,6 +58,7 @@
     {
       "name": "ASE",
       "url": "http://www.ase.dk/",
+      "studentLink": "http://www.ase.dk/under-uddannelse",
       "trustpilot": 7.4,
       "img": "ase_logo.png",
       "price": {
@@ -72,6 +78,7 @@
     {
       "name": "CA A-kasse",
       "url": "https://www.ca.dk/",
+      "studentLink": "https://www.ca.dk/campaign/bliv-gratis-studiemedlem",
       "trustpilot": 9.6,
       "img": "ca-on.gif",
       "price": {
@@ -82,6 +89,7 @@
     {
       "name": "FOA",
       "url": "http://www.foa.dk/A-kasse",
+      "studentLink": "http://www.foa.dk/forbund/medlemsservice/hvad-koster-det/nedsat-kontingent",
       "trustpilot": 3.2,
       "img": "foa-logo.jpg",
       "price": {
@@ -92,6 +100,7 @@
     {
       "name": "HK Danmark",
       "url": "http://www.hk.dk/",
+      "studentLink": "http://www.hk.dk/blivmedlem/akasse-for-0-kr",
       "trustpilot": 2.6,
       "img": "hk_logo.png",
       "price": {

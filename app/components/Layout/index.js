@@ -21,6 +21,8 @@ export default class Layout extends Component {
           <title>Akassejunglen.dk</title>
           <link rel='stylesheet' href={this.props.assets.main.css}/>
           <script dangerouslySetInnerHTML={this.getAnalytics()}></script>
+          <meta name="viewport" content="width=device-width, initial-scale=1"/>
+          <link rel="icon" type="image/jpeg" href="/build/logo.png"/>
         </head>
         <body>
           <div id='wrapper'>
